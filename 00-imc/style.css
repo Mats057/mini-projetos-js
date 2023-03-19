@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 0, 0);
+}
 main{
   display: flex;
   width: 100vw;
@@ -16,7 +21,7 @@ main{
   align-items: center;
   justify-content: space-evenly;
   border-radius: 20px;
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
 .title{
