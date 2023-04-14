@@ -27,7 +27,7 @@
 .item {
     width: 50vw;
     height: 50vh;
-    transition: all 1s;
+    transition: all 1s ease-in-out;
 }
 .item:first-child{
     margin-left: -100%;
@@ -54,6 +54,6 @@
     background-color: #00000055;
     border-radius: 10px;
     cursor: pointer;
-    transition: all 1s;
+    transition: all 0.7s;
 }
 
