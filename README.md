@@ -4,11 +4,11 @@ README do Projeto Original:
 ## Objetivo
 Não tem outra maneira para se aprender além de **praticar, praticar e praticar**.
 
-Crédito das ideias: https://github.com/fernandoleonid, e códigos recriados por mim
+**Crédito das ideias: https://github.com/fernandoleonid, e códigos recriados por mim**
 
-✔️ - Completo
-⏳ - Não Terminado
-❌ - Não iniciado
+✔️ - Completo<br>
+⏳ - Não Terminado<br>
+❌ - Não iniciado<br>
 
 Acompanhe os projetos abaixo:
 
@@ -41,13 +41,13 @@ Acompanhe os projetos abaixo:
       <a href="https://fernandoleonid.github.io/mini-projetos-js/03-slideshow/"><img src="./img/03-slideshow.gif" width="250px" ></a>
     </td>
     <td>
-      <h3>04 - Drum-kit</h3>
+      <h3>04 - Drum-kit - ❌</h3>
       <li><a href="./04-DRUM-KIT/">Código</a></li>
       <li><a href="https://youtu.be/2qA8tlJ24uQ">Passo a passo</a></li>
       <a href="https://fernandoleonid.github.io/mini-projetos-js/04-DRUM-KIT/"><img src="./img/04-DRUM-KIT.gif" width="250px" ></a>
     </td>
     <td>
-      <h3>05 - CountDown</h3>
+      <h3>05 - CountDown - ❌</h3>
       <li><a href="./05-countdown/">Código</a></li>
       <li><a href="https://youtu.be/nmWrwFjiCvo">Passo a passo</a></li>
       <a href="https://fernandoleonid.github.io/mini-projetos-js/05-countdown/"><img src="./img/05-countdown.gif" width="250px" ></a>
@@ -55,19 +55,19 @@ Acompanhe os projetos abaixo:
   </tr>
   <tr>
     <td>
-      <h3>06 - Calculadora</h3>
+      <h3>06 - Calculadora - ❌</h3>
       <li><a href="./06-Calculadora/">Código</a></li>
       <li><a href="https://youtu.be/oRZQ5EZOrQk">Passo a passo</a></li>
       <a href="https://fernandoleonid.github.io/mini-projetos-js/06-Calculadora/"><img src="./img/06-Calculadora.gif" width="250px" ></a>
     </td>
     <td>
-      <h3>07 - To-do-list</h3>
+      <h3>07 - To-do-list - ❌</h3>
       <li><a href="./07-todo-List/">Código</a></li>
       <li><a href="https://youtu.be/oGEYs52ZuHY">Passo a passo</a></li>
       <a href="https://fernandoleonid.github.io/mini-projetos-js/07-todo-List/"><img src="./img/07-todo-List.gif" width="250px" ></a>
     </td>
     <td>
-      <h3>08 - CRUD</h3>
+      <h3>08 - CRUD - ❌</h3>
       <li><a href="./08-crud/">Código</a></li>
       <li><a href="https://youtu.be/oGEYs52ZuHY">Passo a passo</a></li>
       <a href="https://fernandoleonid.github.io/mini-projetos-js/08-crud/"><img src="./img/08-crud.gif" width="250px" ></a>
