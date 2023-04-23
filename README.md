@@ -41,7 +41,7 @@ Acompanhe os projetos abaixo:
       <a href="https://fernandoleonid.github.io/mini-projetos-js/03-slideshow/"><img src="./img/03-slideshow.gif" width="250px" ></a>
     </td>
     <td>
-      <h3>04 - Drum-kit - ❌</h3>
+      <h3>04 - Drum-kit - ✔️</h3>
       <li><a href="./04-DRUM-KIT/">Código</a></li>
       <li><a href="https://youtu.be/2qA8tlJ24uQ">Passo a passo</a></li>
       <a href="https://fernandoleonid.github.io/mini-projetos-js/04-DRUM-KIT/"><img src="./img/04-DRUM-KIT.gif" width="250px" ></a>
