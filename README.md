@@ -24,7 +24,7 @@ Acompanhe os projetos abaixo:
         <h3>01 - Lâmpada - ✔️</h3>
         <li><a href="./01-lamp/">Código</a></li>
         <li><a href="https://youtu.be/4r0zOW9Zn-Y">Passo a passo</a></li>
-        <a href="https://mats057d.github.io/mini-projetos-js/01-lamp/"><img src="./img/01-lamp.gif" width="250px"></a>
+        <a href="https://mats057.github.io/mini-projetos-js/01-lamp/"><img src="./img/01-lamp.gif" width="250px"></a>
     </td>
     <td>
       <h3>02 - Semáforo - ✔️</h3>
@@ -47,7 +47,7 @@ Acompanhe os projetos abaixo:
       <a href="https://mats057.github.io/mini-projetos-js/04-DRUM-KIT/"><img src="./img/04-DRUM-KIT.gif" width="250px" ></a>
     </td>
     <td>
-      <h3>05 - CountDown - ❌</h3>
+      <h3>05 - CountDown - ✔️</h3>
       <li><a href="./05-countdown/">Código</a></li>
       <li><a href="https://youtu.be/nmWrwFjiCvo">Passo a passo</a></li>
       <a href="https://mats057.github.io/mini-projetos-js/05-countdown/"><img src="./img/05-countdown.gif" width="250px" ></a>
