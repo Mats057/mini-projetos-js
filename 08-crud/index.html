@@ -46,7 +46,7 @@
                     <input type="text" id="nome" data-index="new" class="modal-field" placeholder="Nome do Cliente"
                         required>
                     <input type="email" id="email" class="modal-field" placeholder="e-mail do Cliente" required>
-                    <input type="text" id="celular" class="modal-field" placeholder="Celular do Cliente" required>
+                    <input type="text" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);" maxlength="15" id="celular" class="modal-field" placeholder="Celular do Cliente" required>
                     <input type="text" id="cidade" class="modal-field" placeholder="Cidade do Cliente" required>
                 </form>
                 <footer class="modal-footer">
