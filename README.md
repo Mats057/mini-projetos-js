@@ -61,7 +61,7 @@ Acompanhe os projetos abaixo:
       <a href="https://mats057.github.io/mini-projetos-js/06-Calculadora/"><img src="./img/06-Calculadora.gif" width="250px" ></a>
     </td>
     <td>
-      <h3>07 - To-do-list - ❌</h3>
+      <h3>07 - To-do-list - ✔️</h3>
       <li><a href="./07-todo-List/">Código</a></li>
       <li><a href="https://youtu.be/oGEYs52ZuHY">Passo a passo</a></li>
       <a href="https://mats057.github.io/mini-projetos-js/07-todo-List/"><img src="./img/07-todo-List.gif" width="250px" ></a>
