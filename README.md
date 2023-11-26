@@ -55,7 +55,7 @@ Acompanhe os projetos abaixo:
   </tr>
   <tr>
     <td>
-      <h3>06 - Calculadora - ❌</h3>
+      <h3>06 - Calculadora - ✔️</h3>
       <li><a href="./06-Calculadora/">Código</a></li>
       <li><a href="https://youtu.be/oRZQ5EZOrQk">Passo a passo</a></li>
       <a href="https://mats057.github.io/mini-projetos-js/06-Calculadora/"><img src="./img/06-Calculadora.gif" width="250px" ></a>
