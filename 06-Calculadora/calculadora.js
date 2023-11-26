@@ -53,6 +53,7 @@ const CalculatorButtons = (e) => {
       num1, num2, result = 0;
       op = "";
       display.innerText = "";
+      novoNumber = false;
       break;
     case "igual":
       num2 = display.innerText;
