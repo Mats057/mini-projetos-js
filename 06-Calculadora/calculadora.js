@@ -50,7 +50,7 @@ const CalculatorButtons = (e) => {
       novoNumber = true;
       break;
     case "limparCalculo":
-      num1, num2, (result = 0);
+      num1, num2, result = 0);
       op = "";
       display.innerText = "";
       break;
