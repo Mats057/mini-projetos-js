@@ -1,0 +1,78 @@
+body{
+    background-color: #4b4b4b;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.jogo-da-velha{
+    margin: 1rem auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #4b4b4b;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.jogo-da-velha .celula{
+    display: flex;
+    background-color: #fff;
+    border: #000 solid 1px;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.jogo-da-velha .celula:hover{
+    background-color: #ccc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.jogo-da-velha .celula:nth-child(1){
+    border-radius: 20px 0 0 0;
+}
+
+.jogo-da-velha .celula:nth-child(3){
+    border-radius: 0 20px 0 0;
+}
+
+.jogo-da-velha .celula:nth-child(7){
+    border-radius: 0 0 0 20px;
+}
+
+.jogo-da-velha .celula:nth-child(9){
+    border-radius: 0 0 20px 0;
+}
+#reiniciar{
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#reiniciar:hover{
+    background-color: #ccc;
+    transition: 0.5s;
+}
+#currentPlayer{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem auto;
+}
