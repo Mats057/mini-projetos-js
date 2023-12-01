@@ -1,6 +1,7 @@
 # Mini Projetos com javascript puro
 
 ## Objetivo
+
 Não tem outra maneira para se aprender além de **praticar, praticar e praticar**.
 
 **Crédito das ideias/base: <a href="https://github.com/fernandoleonid">Fernando Leonid</a><br>**
@@ -72,12 +73,13 @@ Acompanhe os projetos abaixo:
       <li><a href="https://www.youtube.com/watch?v=_HEIqE_qqbQ">Passo a passo</a></li>
       <a href="https://mats057.github.io/mini-projetos-js/08-crud/"><img src="./img/08-crud.gif" width="250px" ></a>
     </td>
-        <td>
+  </tr>
+  <tr>
+    <td>
       <h3>09 - Jogo da velha - ✔️</h3>
       <li><a href="./09-jogo-da-velha/">Código</a></li>
       <li><a>Passo a passo indisponível(Criado por mim)</a></li>
       <a href="https://mats057.github.io/mini-projetos-js/09-jogo-da-velha/"><img src="./img/09-jogo-da-velha.gif" width="250px" ></a>
     </td>
   </tr>
-  
 </table>
