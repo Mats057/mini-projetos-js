@@ -35,6 +35,7 @@ board.forEach((element) => {
 reiniciar.addEventListener("click", () => {
   board.forEach((element) => {
     element.innerHTML = "";
+    element.style.backgroundColor = "white";
   });
   gameOver = false;
   currentPlayer = player1;
@@ -70,8 +71,11 @@ const checkWinner = () => {
         board[position[2]].innerHTML === currentPlayer
       ) {
         gameOver = true;
-        alert(`O jogador ${currentPlayer} venceu!`);
+        board[position[0]].style.backgroundColor = "green";
+        board[position[1]].style.backgroundColor = "green";
+        board[position[2]].style.backgroundColor = "green";
         divCurrentPlayer.innerHTML = `O jogador ${currentPlayer} venceu!`;
+        alert(`O jogador ${currentPlayer} venceu!`);
       }
     });
   }
