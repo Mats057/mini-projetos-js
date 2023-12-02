@@ -75,7 +75,9 @@ const checkWinner = () => {
         board[position[1]].style.backgroundColor = "green";
         board[position[2]].style.backgroundColor = "green";
         divCurrentPlayer.innerHTML = `O jogador ${currentPlayer} venceu!`;
-        alert(`O jogador ${currentPlayer} venceu!`);
+        setTimeout(() => {
+          alert(`O jogador ${currentPlayer} venceu!`);
+        }, 100);
       }
     });
   }
