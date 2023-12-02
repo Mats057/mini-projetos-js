@@ -4,7 +4,7 @@
 
 Não tem outra maneira para se aprender além de **praticar, praticar e praticar**.
 
-**Crédito das ideias/base: <a href="https://github.com/fernandoleonid">Fernando Leonid</a><br>**
+**Crédito das 8 primeiras ideias ideias/base: <a href="https://github.com/fernandoleonid">Fernando Leonid</a><br>**
 **Códigos recriados por mim**
 
 ✔️ - Completo<br>
