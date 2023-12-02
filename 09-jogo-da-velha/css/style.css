@@ -76,3 +76,17 @@ main{
     font-weight: bold;
     margin: 1rem auto;
 }
+
+@media screen and (max-width: 500px){
+    .jogo-da-velha{
+        width: 300px;
+        height: 300px;
+    }
+    .jogo-da-velha .celula{
+        font-size: 2rem;
+    }
+    #currentPlayer{
+        font-size: 1rem;
+    }
+    
+}
