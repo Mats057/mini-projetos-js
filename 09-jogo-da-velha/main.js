@@ -77,7 +77,7 @@ const checkWinner = () => {
         divCurrentPlayer.innerHTML = `O jogador ${currentPlayer} venceu!`;
         setTimeout(() => {
           alert(`O jogador ${currentPlayer} venceu!`);
-        }, 100);
+        }, 200);
       }
     });
   }
