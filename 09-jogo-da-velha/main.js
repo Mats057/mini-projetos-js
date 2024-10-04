@@ -13,7 +13,7 @@ const player2 = "O";
 const board = Array.from(document.getElementsByClassName("celula"));
 const divCurrentPlayer = document.getElementById("currentPlayer");
 const reiniciar = document.getElementById("reiniciar");
-console.log(board);
+
 let currentPlayer = player1;
 let gameOver = false;
 
@@ -24,15 +24,11 @@ const handleClick = (event) => {
   if (element.innerHTML === "" && !gameOver) {
     element.innerHTML = currentPlayer;
     checkWinner();
-    togglePlayer();
+    if (!gameOver) togglePlayer();
   }
 };
 
-board.forEach((element) => {
-  element.addEventListener("click", handleClick);
-});
-
-reiniciar.addEventListener("click", () => {
+const resetGame = () => {
   board.forEach((element) => {
     element.innerHTML = "";
     element.style.backgroundColor = "white";
@@ -40,45 +36,38 @@ reiniciar.addEventListener("click", () => {
   gameOver = false;
   currentPlayer = player1;
   divCurrentPlayer.innerHTML = `É a vez do jogador ${currentPlayer}`;
-});
+};
 
 const togglePlayer = () => {
-  if (gameOver) return;
   currentPlayer = currentPlayer === player1 ? player2 : player1;
   divCurrentPlayer.innerHTML = `É a vez do jogador ${currentPlayer}`;
 };
 
 const checkWinner = () => {
-  if (
-    board[0].innerHTML !== "" &&
-    board[1].innerHTML !== "" &&
-    board[2].innerHTML !== "" &&
-    board[3].innerHTML !== "" &&
-    board[4].innerHTML !== "" &&
-    board[5].innerHTML !== "" &&
-    board[6].innerHTML !== "" &&
-    board[7].innerHTML !== "" &&
-    board[8].innerHTML !== ""
-  ) {
+  positions.forEach((position) => {
+    if (
+      board[position[0]].innerHTML === currentPlayer &&
+      board[position[1]].innerHTML === currentPlayer &&
+      board[position[2]].innerHTML === currentPlayer
+    ) {
+      gameOver = true;
+      position.forEach((i) => (board[i].style.backgroundColor = "green"));
+      divCurrentPlayer.innerHTML = `O jogador ${currentPlayer} venceu!`;
+      setTimeout(() => {
+        alert(`O jogador ${currentPlayer} venceu!`);
+      }, 200);
+      return;
+    }
+  });
+  if (!gameOver && board.every((element) => element.innerHTML !== "")) {
     gameOver = true;
     alert(`Deu velha!`);
     divCurrentPlayer.innerHTML = `Deu velha!`;
-  } else {
-    positions.forEach((position) => {
-      if (
-        board[position[0]].innerHTML === currentPlayer &&
-        board[position[1]].innerHTML === currentPlayer &&
-        board[position[2]].innerHTML === currentPlayer
-      ) {
-        gameOver = true;
-        board[position[0]].style.backgroundColor = "green";
-        board[position[1]].style.backgroundColor = "green";
-        board[position[2]].style.backgroundColor = "green";
-        divCurrentPlayer.innerHTML = `O jogador ${currentPlayer} venceu!`;
-        setTimeout(() => {
-          alert(`O jogador ${currentPlayer} venceu!`);
-        }, 200);
-      }
-    });
   }
 };
+
+board.forEach((element) => {
+  element.addEventListener("click", handleClick);
+});
+
+reiniciar.addEventListener("click", resetGame);
