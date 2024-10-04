@@ -79,7 +79,7 @@ Acompanhe os projetos abaixo:
       <h3>09 - Jogo da velha - ✔️</h3>
       <li><a href="./09-jogo-da-velha/">Código</a></li>
       <li><a>(Criado por mim)</a></li>
-      <a href="https://mats057.github.io/mini-projetos-js/09-jogo-da-velha/"><img src="./img/09-jogo-da-velha.gif" width="250px" ></a>
+      <a href="https://mats057.github.io/mini-projetos-js/09-jogo-da-velha/"><img src="./img/09-Jogo-da-Velha.gif" width="250px" ></a>
     </td>
   </tr>
 </table>
